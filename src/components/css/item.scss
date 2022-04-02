@@ -1,0 +1,39 @@
+.section-items.container .item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    padding: 45px 20px;
+
+    img {
+        width: calc(30% - 10px);
+    }
+
+    .item-detail {
+        width: 70%;
+
+        .title {
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        li {
+            list-style: none;
+            font-size:14px
+        }
+    }
+
+    .year {
+        position: absolute;
+        top: 10px;
+    }
+
+    .success,
+    .danger {
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+
+}
