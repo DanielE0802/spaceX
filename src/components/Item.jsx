@@ -1,7 +1,6 @@
 import { Box, Badge } from '@chakra-ui/react'
 import './css/item.scss'
 function Item(props) {
-  console.log(props)
   return (
     <Box key={props.index} className="item"
       bg="gray.200"
