@@ -15,10 +15,9 @@ function FilterContainer(props) {
               <option value="success" >Success mission</option>
             </select>
           </p>
-          <p>Mision: {props.launchSuccess}</p>
         </div>
       </div>
-      <div className="clearFilters">Clear</div>
+      {/* <div className="clearFilters">Clear</div> */}
     </div>
   );
 }
