@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/spacex/static/css/main.2d92a527.css",
+    "main.js": "/spacex/static/js/main.88d66def.js",
+    "static/media/banner-launches.webp": "/spacex/static/media/banner-launches.11b82402ea5848d8d48d.webp",
+    "static/media/SpaceX-White-Logo.wine.svg": "/spacex/static/media/SpaceX-White-Logo.wine.f94464e141337a27a2438fcf14ffdd3e.svg",
+    "index.html": "/spacex/index.html",
+    "main.2d92a527.css.map": "/spacex/static/css/main.2d92a527.css.map",
+    "main.88d66def.js.map": "/spacex/static/js/main.88d66def.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d92a527.css",
+    "static/js/main.88d66def.js"
+  ]
+}
