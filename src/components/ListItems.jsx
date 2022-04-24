@@ -51,7 +51,7 @@ function ListItems() {
         setLaunchSuccess={setLaunchSuccess}
         launchSuccess={launchSuccess}
       ></FilterContainer>
-      <body>
+      <div className="body">
         <div className="section-items container">
           {!defaultLaunches.length > 0 && search.length > 0 ? (
             <div className="not-search">
@@ -59,11 +59,11 @@ function ListItems() {
             </div>
           ) : (
             defaultLaunches.map((launch, index) => {
-              return <Item data={launch} index={index} />;
+              return <Item data={launch} key={index} index={index} />;
             })
           )}
         </div>
-      </body>
+      </div>
     </>
   );
 }

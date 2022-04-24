@@ -12,7 +12,7 @@ function App() {
         <img src={logoSpaceX} width="280px" alt="" />
       </header>
       <Routes>
-        <Route path="/" element={<ListItems />} />
+        <Route path="/spacex" element={<ListItems />} />
         <Route path="/launch/:launchId" element={<ItemsDetails />} />
       </Routes>
      
