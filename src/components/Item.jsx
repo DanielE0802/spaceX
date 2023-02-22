@@ -1,4 +1,4 @@
-import { Box, Badge } from '@chakra-ui/react'
+import { Box, Badge, Button } from '@chakra-ui/react'
 import './css/item.scss'
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
@@ -6,7 +6,6 @@ import TodayIcon from '@mui/icons-material/Today';
 import dayjs from 'dayjs'
 import 'dayjs/locale/es'
 import { Link } from "react-router-dom";
-
 function Item({data, index}) {
   return (
     <Box key={index} className="item"
@@ -28,7 +27,7 @@ function Item({data, index}) {
         </div>
       </div>
       <Badge p="1.5" borderRadius="md" className="label year" colorScheme='purple'>{data.launch_year}</Badge>
-      <Link to={`/launch/${data.flight_number}`}>Leer más</Link>
+      <Button colorScheme='blue' variant="solid" ><Link to={`/launch/${data.flight_number}`}>Leer más</Link></Button>
       {data.launch_success === true ? <Badge p="1.5" borderRadius="md" className="label success" colorScheme='green'>Success mission</Badge> : <Badge p="1.5" borderRadius="md" className="label danger" colorScheme='red'>Failed mission</Badge>}
 
     </Box>
