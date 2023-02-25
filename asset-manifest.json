@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/spacex/static/css/main.d511a44e.css",
-    "main.js": "/spacex/static/js/main.753f09f4.js",
-    "static/media/banner-launches.webp": "/spacex/static/media/banner-launches.11b82402ea5848d8d48d.webp",
-    "static/media/SpaceX-White-Logo.wine.svg": "/spacex/static/media/SpaceX-White-Logo.wine.f94464e141337a27a2438fcf14ffdd3e.svg",
-    "index.html": "/spacex/index.html",
-    "main.d511a44e.css.map": "/spacex/static/css/main.d511a44e.css.map",
-    "main.753f09f4.js.map": "/spacex/static/js/main.753f09f4.js.map"
+    "main.css": "/spaceX/static/css/main.3df2359b.css",
+    "main.js": "/spaceX/static/js/main.15aac919.js",
+    "static/media/banner-launches.webp": "/spaceX/static/media/banner-launches.11b82402ea5848d8d48d.webp",
+    "static/media/SpaceX-White-Logo.wine.svg": "/spaceX/static/media/SpaceX-White-Logo.wine.f94464e141337a27a2438fcf14ffdd3e.svg",
+    "index.html": "/spaceX/index.html",
+    "main.3df2359b.css.map": "/spaceX/static/css/main.3df2359b.css.map",
+    "main.15aac919.js.map": "/spaceX/static/js/main.15aac919.js.map"
   },
   "entrypoints": [
-    "static/css/main.d511a44e.css",
-    "static/js/main.753f09f4.js"
+    "static/css/main.3df2359b.css",
+    "static/js/main.15aac919.js"
   ]
 }
