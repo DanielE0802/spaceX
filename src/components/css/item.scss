@@ -7,11 +7,18 @@
     padding: 45px 20px;
 
     img {
-        width: calc(30% - 10px);
+  
+        width: 70%;
+        margin: auto;
+
+        @media (min-width:600px) {
+            width: calc(30% - 10px);
+        }
     }
 
     .item-detail {
-        width: 70%;
+        width: 100%;
+        margin-top: 20px;
 
         .title {
             font-size: 18px;
@@ -20,7 +27,13 @@
 
         li {
             list-style: none;
-            font-size:14px
+            font-size:14px;
+            margin-top: 5px;
+        }
+
+        @media (min-width:600px) {
+            width: 70%;
+            margin-top: unset;
         }
     }
 
@@ -35,5 +48,17 @@
         right: 15px;
         top: 10px;
     }
+    a:hover{
+        color: unset ;
+    }
 
+    button.chakra-button{
+        width: 100%;
+        position: relative;
+        bottom: -20px;
+        @media (min-width:600px) {
+            width: calc(30% - 10px);
+       
+        }
+    }
 }
