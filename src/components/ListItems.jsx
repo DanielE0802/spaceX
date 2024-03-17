@@ -26,7 +26,7 @@ function ListItems() {
   }
 
   // eslint-disable-next-line no-lone-blocks
-  {
+    console.log('launchSuccess', launchSuccess)
     if (launchSuccess === "success") {
       defaultLaunches = launches.filter((launch) => {
         return launch.launch_success === true;
@@ -36,7 +36,7 @@ function ListItems() {
         return launch.launch_success === false;
       });
     }
-  }
+  
 
   return (
     <>
